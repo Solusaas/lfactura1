@@ -1,0 +1,203 @@
+{
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/@redq/reuse-modal/es/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/icon-example-page.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/flaticon.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-image-gallery/styles/css/image-gallery.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/rc-tabs/assets/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/reusecore/node_modules/rc-drawer/assets/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/@glidejs/glide/dist/css/glide.core.min.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-accessible-accordion/dist/fancy-example.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi ../../node_modules/next/dist/client/next": 0,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/@redq/reuse-modal/es/index.css 0": 1,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/flaticon.css 0": 2,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/reusecore/node_modules/rc-drawer/assets/index.css 0": 3,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/rc-tabs/assets/index.css 0": 4,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/@glidejs/glide/dist/css/glide.core.min.css 0": 5,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-accessible-accordion/dist/fancy-example.css 0": 6,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/react-image-gallery/styles/css/image-gallery.css 0": 7,
+      "css ../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/common/src/assets/css/icon-example-page.css 0": 8
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "styles": 2,
+      "static/runtime/main.js": 3,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\_app.js": 4,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\_error.js": 5,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\agency.js": 6,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\app.js": 7,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\crypto.js": 8,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\hosting.js": 9,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\icons.js": 10,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\index.js": 11,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\portfolio.js": 12,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\ride.js": 13,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\saas.js": 14,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\saasclassic.js": 15,
+      "static\\U6h53qM0wWuD88xw9WDNT\\pages\\saasmodern.js": 16
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
