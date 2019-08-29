@@ -1807,7 +1807,7 @@
       "publicPath": "static/chunks/commons.97f9e2e0fff5a2268875.js"
     }
   ],
-  "./debounce": [
+  "lodash/debounce": [
     {
       "id": "RNvQ",
       "name": "../../node_modules/lodash/debounce.js",
@@ -1935,7 +1935,7 @@
       "publicPath": "static/chunks/commons.97f9e2e0fff5a2268875.js"
     }
   ],
-  "@babel/runtime-corejs2/core-js/object/keys": [
+  "../../core-js/object/keys": [
     {
       "id": "TPw6",
       "name": "../../node_modules/@babel/runtime-corejs2/core-js/object/keys.js",

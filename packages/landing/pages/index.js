@@ -1,66 +1,64 @@
 import React, { Fragment } from 'react';
 import Head from 'next/head';
-import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
-import { agencyTheme } from 'common/src/theme/agency';
+import Sticky from 'react-stickynode';
+import { DrawerProvider } from 'common/src/contexts/DrawerContext';
+import { saasTwoTheme } from 'common/src/theme/saasTwo';
 import { ResetCSS } from 'common/src/assets/css/style';
 import {
   GlobalStyle,
-  AgencyWrapper,
-} from 'common/src/containers/Agency/agency.style';
-import Navbar from 'common/src/containers/Agency/Navbar';
-import BannerSection from 'common/src/containers/Agency/BannerSection';
-import FeatureSection from 'common/src/containers/Agency/FeatureSection';
-import AboutUsSection from 'common/src/containers/Agency/AboutUsSection';
-import WorkHistory from 'common/src/containers/Agency/WorkHistory';
-import BlogSection from 'common/src/containers/Agency/BlogSection';
-import TestimonialSection from 'common/src/containers/Agency/TestimonialSection';
-import TeamSection from 'common/src/containers/Agency/TeamSection';
-import VideoSection from 'common/src/containers/Agency/VideoSection';
-import NewsletterSection from 'common/src/containers/Agency/NewsletterSection';
-import QualitySection from 'common/src/containers/Agency/QualitySection';
-import Footer from 'common/src/containers/Agency/Footer';
-import { DrawerProvider } from 'common/src/contexts/DrawerContext';
-import FaqSection from 'common/src/containers/Agency/FaqSection';
+  ContentWrapper,
+} from 'common/src/containers/SaasTwo/sassTwo.style';
+
+import BannerSection from 'common/src/containers/SaasTwo/Banner';
+import Navbar from 'common/src/containers/SaasTwo/Navbar';
+import WorkingProcessSection from 'common/src/containers/SaasTwo/WorkingProcess';
+import PricingSection from 'common/src/containers/SaasTwo/Pricing';
+import PartnerSection from 'common/src/containers/SaasTwo/Partner';
+import FaqSection from 'common/src/containers/SaasTwo/Faq';
+import TrialSection from 'common/src/containers/SaasTwo/Trial';
+import InfoSection from 'common/src/containers/SaasTwo/Info';
+import FeatureSection from 'common/src/containers/SaasTwo/Feature';
+import UpdateScreen from 'common/src/containers/SaasTwo/UpdateScreen';
+import TestimonialSection from 'common/src/containers/SaasTwo/Testimonial';
+import Footer from 'common/src/containers/SaasTwo/Footer';
+
 export default () => {
   return (
-    <ThemeProvider theme={agencyTheme}>
+    <ThemeProvider theme={saasTwoTheme}>
       <Fragment>
-        {/* Start agency head section */}
         <Head>
-          <title>Agency | A react next landing page</title>
-          <meta name="theme-color" content="#10ac84" />
+          <title>SaaS | A react next landing page</title>
           <meta name="Description" content="React next landing page" />
+          <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900|Open+Sans:400,400i,600,700"
             rel="stylesheet"
           />
         </Head>
+
         <ResetCSS />
         <GlobalStyle />
-        {/* End of agency head section */}
-        {/* Start agency wrapper section */}
-        <AgencyWrapper>
+
+        <ContentWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
           </Sticky>
           <BannerSection />
+          <WorkingProcessSection />
+          <InfoSection />
           <FeatureSection />
-          <AboutUsSection />
-          <WorkHistory />
-          <BlogSection />
-          <QualitySection />
-          <VideoSection />
+          <UpdateScreen />
+          <PricingSection />
+          <PartnerSection />
           <TestimonialSection />
-          <TeamSection />
           <FaqSection />
-          <NewsletterSection />
+          <TrialSection />
           <Footer />
-        </AgencyWrapper>
-        {/* End of agency wrapper section */}
+        </ContentWrapper>
       </Fragment>
     </ThemeProvider>
   );
